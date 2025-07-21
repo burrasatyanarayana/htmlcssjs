@@ -1,0 +1,39 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f8ff;
+      margin-top: 50px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    #output {
+      margin-top: 30px;
+      font-size: 18px;
+      line-height: 1.6;
+      white-space: pre-line;
+      color: #333;
+    }
+
+    button:last-of-type {
+      background-color: #f44336;
+    }
+
+    button:last-of-type:hover {
+      background-color: #d32f2f;
+    }
