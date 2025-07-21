@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Race Stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="left">
+    <h1>Stopwatch For Racing</h1>
+    <h2 id="display">00:00:00</h2>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+
+    <div style="margin-top: 20px;">
+      <input type="text" id="name" placeholder="Enter participant name" />
+      <button id="add">Add Participant</button>
+    </div>
+
+    <table id="participant-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Lap</th>
+        </tr>
+      </thead>
+      <tbody id="participant-list"></tbody>
+    </table>
+  </div>
+
+  <div class="right">
+    <h2>Lap Records</h2>
+    <div id="laps"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
